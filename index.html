@@ -58,9 +58,10 @@
 
         </div>
         <div class="flex flex-row justify-center items-center my-4  gap-2">
-            <button id='my-donet' class="btn px-2 py-3 rounded-md">Donation</button>
-            <button id='my-history' class="btn  bg-lime-300  px-5 py-3 rounded-md">History</button>
+            <button id='my-donet' class="btn  bg-lime-300 px-2 py-3 rounded-md">Donation</button>
+            <button id='my-history' class="btn   px-5 py-3 rounded-md">History</button>
         </div>
+
     </header>
 
     <main>
@@ -75,7 +76,7 @@
                         <span id="balance-noakhali">0</span>
                         <span>BDT</span>
                     </div>
-                    <h2 class="text-xl font-bold">Donate for Flood at Noakhali, Bangladesh</h2>
+                    <h2 class="text-xl font-bold">Donate for  <span id="location-1">Flood at Noakhali, Bangladesh</span></h2>
                     <p class="text-gray-400 font-extralight	text-md">
                         The recent floods in Noakhali have caused significant damage to homes infrastructure. Your
                         donation
@@ -103,7 +104,7 @@
                         <span id="balance-feni">0</span>
                         <span>BDT</span>
                     </div>
-                    <h2 class="text-xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h2>
+                    <h2 class="text-xl font-bold">Donate for  <span id="location-2">Flood Relief in Feni,Bangladesh</span></h2>
                     <p class="text-gray-400 font-extralight	text-md">
                         The recent floods in Feni have devastated local communities, leading to severe disruption and
                         loss.
@@ -134,7 +135,7 @@
                         <span id="balance-quota">0</span>
                         <span>BDT</span>
                     </div>
-                    <h2 class="text-xl font-bold">Aid for Injured in the Quota Movement</h2>
+                    <h2 class="text-xl font-bold">Aid for  <span id="location-3">Injured in the Quota Movement</span></h2>
                     <p class="text-gray-400 font-extralight	text-md">
                         The recent floods in Feni have devastated local communities, leading to severe disruption and
                         loss.
@@ -157,8 +158,8 @@
             </section>
         </div>
         <!-- transecton history section  -->
-        <section id="history-transection" class="container mt-48 hidden m-auto z-20 flex-col gap-4 rounded-xl p-4">
-            <div class="border border-gray-300  rounded-md p-4 space-y-3">
+        <section id="history-transection" class="container mt-48 hidden m-auto z-20 flex-col  rounded-xl p-4">
+            <!-- <div class="border border-gray-300  rounded-md p-4 space-y-3">
                 <h1 class="text-xl font-bold">96500 Taka is Donated for famine-2024 at Feni, Bangladesh</h1>
                 <p class="font-extralight text-sm">Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)
                 </p>
@@ -172,7 +173,7 @@
                 <h1 class="text-xl font-bold">96500 Taka is Donated for famine-2024 at Feni, Bangladesh</h1>
                 <p class="font-extralight text-sm">Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)
                 </p>
-            </div>
+            </div> -->
         </section>
         <!-- alart box section  -->
 
@@ -182,14 +183,18 @@
             <img src="./assets/coin.png" alt="">
             <p class="font-normal text-gray-400">You Have Donated for Humankind</p>
             <h2 class="font-bold text-sm md:text-xl">Successfully</h2>
-            <button class="font-medium px-4 py-2 rounded-md border bg-gray-200">
+            <button onclick="closeModal()" id="confirmation" class="font-medium px-4 py-2 rounded-md border bg-gray-200">
                 close confirmation
             </button>
         </section>
     </main>
 
+    
+    
+
     <script src="./js/utilites.js"></script>
     <script src="./js/logic.js"></script>
+    <script src="./js/donet.js"></script>
 
 </body>
 
