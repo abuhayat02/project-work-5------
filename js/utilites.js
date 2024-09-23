@@ -65,7 +65,8 @@ function donetCalculation(btnId , inputBalanceId , oldBalanceId , balance ,locti
                 mainBalance.innerText = convartIntWithTag(mainBalance) - (getDonetBalance + oldbalance)
     
     
-                showModal()
+                showModal();
+                getDonet.value="";
     
             } else {
                 alert('somting wrong');
@@ -74,4 +75,9 @@ function donetCalculation(btnId , inputBalanceId , oldBalanceId , balance ,locti
     
         })
     
+    }
+
+
+    function blogs(){
+        window.location.href = './blog.html'
     }
