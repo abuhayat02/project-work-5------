@@ -36,48 +36,48 @@
 </head>
 
 <body class="lexend-font relative">
-    <header class="bg-whait-color  z-40 fixed justify-center items-center top-0 left-0 right-0 w-full">
-        <div class="bg-header-color">
+    <header class=" bg-gradient-to-tr from-violet-50  to-blue-300 z-40 fixed justify-center items-center top-0 left-0 right-0 w-full">
+        <div class="">
             <div class="navbar container m-auto ">
                 <div class="navbar-start">
 
-                    <a class=" text-xl  bg-lime-300  to-lime-100 px-5 py-3 rounded-md">Blog</a>
+                    <a class=" text-sm md:text-lg bg-blue-300 px-5 py-3 rounded-md">Blog</a>
                 </div>
                 <div class="navbar-center ">
                     <ul class=" px-1">
-                        <li class="flex flex-row items-center justify-center gap-3"> <img src="./assets/logo.png"
-                                alt=""> <a class="font-semibold text-xl">Donate Bangladesh</a></li>
+                        <li class="flex flex-row items-center justify-center gap-3"> <img class="w-6 md:w-12" src="./assets/logo.png"
+                                alt=""> <a class="font-semibold text-sm md:text-xl">Donate Bangladesh</a></li>
 
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a class="font-semibold flex flex-row items-center justify-center gap-3"><img
-                            src="./assets/coin.png" alt=""><span id="main-balance">5500</span> BDT</a>
+                    <a class="font-semibold flex flex-row items-center justify-center gap-1 md:gap-2 lg:gap-3"><img
+                            src="./assets/coin.png" class="w-6 md:w-8" alt=""><span id="main-balance">5500</span> BDT</a>
                 </div>
             </div>
 
         </div>
         <div class="flex flex-row justify-center items-center my-4  gap-2">
-            <button id='my-donet' class="btn  bg-lime-300 px-2 py-3 rounded-md">Donation</button>
+            <button id='my-donet' class="btn  bg-blue-300 px-2 py-3 rounded-md">Donation</button>
             <button id='my-history' class="btn   px-5 py-3 rounded-md">History</button>
         </div>
 
     </header>
 
-    <main>
+    <main class="mx-10 md:mx-4 bg-gradient-to-br from-indigo-50 py-12">
         <div id="donet-contant">
             <!-- donet-noakhali -->
             <section
-                class="container m-auto z-20 flex flex-col md:flex-row mt-48 gap-4 border border-blue-400 rounded-xl p-4">
+                class="container m-auto z-20 flex flex-col md:flex-row mt-48 gap-4  border border-blue-400 rounded-xl p-4">
                 <img class="flex-1" src="./assets/noakhali.png" alt="">
-                <div class="flex flex-1 flex-col justify-between">
-                    <div class="flex flex-row bg-gray-200 w-fit justify-center items-center gap-2 px-4 py-1 rounded-md">
+                <div class="flex flex-1 flex-col justify-between gap-4 md:gap-0">
+                    <div class="flex flex-row bg-blue-100 w-fit justify-center items-center gap-2 px-4 py-1 rounded-md">
                         <img src="./assets/coin.png" alt="">
                         <span id="balance-noakhali">0</span>
                         <span>BDT</span>
                     </div>
                     <h2 class="text-xl font-bold">Donate for  <span id="location-1">Flood at Noakhali, Bangladesh</span></h2>
-                    <p class="text-gray-400 font-extralight	text-md">
+                    <p class=" font-extralight	text-md">
                         The recent floods in Noakhali have caused significant damage to homes infrastructure. Your
                         donation
                         will
@@ -88,9 +88,9 @@
                         the lives of those in need.
                     </p>
                     <input type="text" id="donet-noakhali"
-                        class="w-full border border-red-100 px-3 rounded-md outline-0 py-2"
+                        class="w-full border border-blue-100 px-3 rounded-md outline-0 py-2"
                         placeholder="Write Donation Amount">
-                    <button id="btn-donet-noakhali" class="text-center px-3 bg-lime-400 w-full rounded-md py-2">Donate
+                    <button id="btn-donet-noakhali" class="text-center px-3 bg-blue-200 w-full rounded-md py-2">Donate
                         Now</button>
                 </div>
             </section>
@@ -98,14 +98,14 @@
             <section
                 class="container m-auto z-20 flex flex-col md:flex-row mt-4 gap-4 border border-blue-400 rounded-xl p-4">
                 <img class="flex-1" src="./assets/feni.png" alt="">
-                <div class="flex flex-1 flex-col justify-between">
-                    <div class="flex flex-row bg-gray-200 w-fit justify-center items-center gap-2 px-4 py-1 rounded-md">
+                <div class="flex flex-1 flex-col justify-between  gap-4 md:gap-0">
+                    <div class="flex flex-row  bg-blue-100 w-fit justify-center items-center gap-2 px-4 py-1 rounded-md">
                         <img src="./assets/coin.png" alt="">
                         <span id="balance-feni">0</span>
                         <span>BDT</span>
                     </div>
                     <h2 class="text-xl font-bold">Donate for  <span id="location-2">Flood Relief in Feni,Bangladesh</span></h2>
-                    <p class="text-gray-400 font-extralight	text-md">
+                    <p class=" font-extralight	text-md">
                         The recent floods in Feni have devastated local communities, leading to severe disruption and
                         loss.
                         Your
@@ -119,9 +119,9 @@
                         donating today to assist those in urgent need.
                     </p>
                     <input type="text" id="donet-feni"
-                        class="w-full border border-red-100 px-3 rounded-md outline-0 py-2"
+                        class="w-full border border-blue-100 px-3 rounded-md outline-0 py-2"
                         placeholder="Write Donation Amount">
-                    <button id="btn-donet-feni" class="text-center px-3 bg-lime-400 w-full rounded-md py-2">Donate
+                    <button id="btn-donet-feni" class="text-center px-3 bg-blue-200 w-full rounded-md py-2">Donate
                         Now</button>
                 </div>
             </section>
@@ -129,14 +129,14 @@
             <section
                 class="container m-auto z-20 flex flex-col md:flex-row mt-4 gap-4 border border-blue-400 rounded-xl p-4">
                 <img class="flex-1" src="./assets/quota-protest.png" alt="">
-                <div class="flex flex-1 flex-col justify-between">
+                <div class="flex flex-1 flex-col justify-between  gap-4 md:gap-0">
                     <div class="flex flex-row bg-gray-200 w-fit justify-center items-center gap-2 px-4 py-1 rounded-md">
                         <img src="./assets/coin.png" alt="">
                         <span id="balance-quota">0</span>
                         <span>BDT</span>
                     </div>
                     <h2 class="text-xl font-bold">Aid for  <span id="location-3">Injured in the Quota Movement</span></h2>
-                    <p class="text-gray-400 font-extralight	text-md">
+                    <p class=" font-extralight	text-md">
                         The recent floods in Feni have devastated local communities, leading to severe disruption and
                         loss.
                         Your
@@ -150,9 +150,9 @@
                         donating today to assist those in urgent need.
                     </p>
                     <input type="text" id="donet-quota"
-                        class="w-full border border-red-100 px-3 rounded-md outline-0 py-2"
+                        class="w-full border border-blue-100 px-3 rounded-md outline-0 py-2"
                         placeholder="Write Donation Amount">
-                    <button id="btn-donet-quota" class="text-center px-3 bg-lime-400 w-full rounded-md py-2">Donate
+                    <button id="btn-donet-quota" class="text-center px-3 bg-blue-200 w-full rounded-md py-2">Donate
                         Now</button>
                 </div>
             </section>
