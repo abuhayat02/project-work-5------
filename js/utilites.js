@@ -58,7 +58,7 @@ function donetCalculation(btnId , inputBalanceId , oldBalanceId , balance ,locti
                 div.innerHTML = ` 
                 <div class="border bg-gradient-to-tr from-blue-200  to-fuchsia-100 rounded-md p-4 my-3 space-y-3">
                     <h1 class="text-sm md:text-xl font-bold">${getDonetBalance} Taka is Donated for famine- ${myDate.getFullYear()}  at ${location.innerText} Bangladesh</h1>
-                    <p class=" font-normal px-2 py-4  border border-blue-400 text-xs text-black/70">Date :${week[myDate.getDay()]} ${munth[myDate.getMonth() + 1]} ${myDate.getDate()} ${myDate.getFullYear()} and time ${myDate.getHours()}:${myDate.getMinutes()} <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX"></iframe></noscript> GMT +0600 (Bangladesh Standard Time)</p>
+                    <p class=" font-normal px-2 py-4  border border-blue-400 text-xs text-black/70">Date :${week[myDate.getDay()].slice(0,3)} ${munth[myDate.getMonth()]} ${myDate.getDate()} ${myDate.getFullYear()} and time ${myDate.getHours()}:${myDate.getMinutes()} <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX"></iframe></noscript> GMT +0600 (Bangladesh Standard Time)</p>
                 </div>`;
                 detalse.appendChild(div)
                 balanceBox.innerText = getDonetBalance + oldbalance;
