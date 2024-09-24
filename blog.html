@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="backdrop-blur-md fixed top-0 left-0 right-0">
+    <header class="backdrop-blur-md fixed top-0 left-0 right-0">
         <div class="navbar bg-blue-100 container m-auto ">
             <div class="navbar-start ">
 
@@ -36,12 +36,51 @@
             </div>
         </div>
 
-    </div>
+    </header>
     <main class="container m-auto bg-blue-50 px-1 py-3  md:px-11 md:py-10">
-        <div class="my-28 flex flex-row items-center gap-2">
-            <h1 class="text-md md:text-4xl font-bold">Importent FAQ </h1>
+
+        <section class="my-16 flex flex-row items-center gap-2">
+            <h1 class="text-xl md:text-4xl font-bold">Importent FAQ </h1>
             <img class="rounded-full w-7 md:w-11" src="./assets/faq.gif" alt="">
-        </div>
+        </section>
+
+        <section class="flex flex-col gap-2">
+            <div class="collapse  collapse-arrow border rounded-none border-blue-600">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-md  font-medium">What is Document Object Model (DOM) ?</div>
+                <div class="collapse-content">
+                    <p>The Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the conten</p>
+                </div>
+            </div>
+        
+            <div class="collapse  collapse-arrow border rounded-none border-blue-600">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-md font-medium">How do you select on element from the DOM ?</div>
+                <div class="collapse-content">
+                    <p>The Select object represents an HTML (select) element. Access a Select Object we can access a (select) element by using getElementById().</p>
+                </div>
+            </div>
+        
+        
+            <div class="collapse  collapse-arrow border rounded-none border-blue-600">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-md font-medium">What is event delegotion in the context of the DOM , and why is it usefull?</div>
+                <div class="collapse-content">
+                    <p>Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated</p>
+                </div>
+            </div>
+        
+            <div class="collapse  collapse-arrow border rounded-none border-blue-600">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-md font-medium">How do you manipulate on element's atributes and styles using the DOM?</div>
+                <div class="collapse-content">
+                    <p>Manipulating Element Attributes
+                        The classList object only provide methods to change the class of an element. If you want to change other attributes like id , href , or src , you can use the setAttribute() method.</p>
+                </div>
+            </div>
+        
+        </section>
+
     </main>
 
     <script src="./js/utilites.js"></script>
