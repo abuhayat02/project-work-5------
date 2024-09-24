@@ -1,7 +1,9 @@
 let donet = getId('my-donet');
 let history = getId('my-history');
 let transcriptionHistory = getId('history-transection');
-let dontContent = getId("donet-contant")
+let dontContent = getId("donet-contant");
+let blogButton = getId('blog-btn');
+
 
 donet.addEventListener('click', function(event){
     classAdd(donet , 'bg-blue-300')
@@ -20,3 +22,4 @@ history.addEventListener('click' , function(){
 
 
 })
+
