@@ -56,7 +56,7 @@ function donetCalculation(btnId , inputBalanceId , oldBalanceId , balance ,locti
                 let div = document.createElement('div')
                 let detalse = getId("history-transection");
                 div.innerHTML = ` 
-                <div class="border border-gray-300  rounded-md p-4 my-3 space-y-3">
+                <div class="border bg-gradient-to-tr from-blue-200  to-fuchsia-100 rounded-md p-4 my-3 space-y-3">
                     <h1 class="text-xl font-bold">${getDonetBalance} Taka is Donated for famine- ${myDate.getFullYear()}  at ${location.innerText} Bangladesh</h1>
                     <p class="font-extralight text-sm">Date :${week[myDate.getDay()]} ${munth[myDate.getMonth() + 1]} ${myDate.getDate()} ${myDate.getFullYear()} and time ${myDate.getHours()}:${myDate.getMinutes()} <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX"></iframe></noscript> GMT +0600 (Bangladesh Standard Time)</p>
                 </div>`;
