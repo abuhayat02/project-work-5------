@@ -51,7 +51,7 @@ function donetCalculation(btnId , inputBalanceId , oldBalanceId , balance ,locti
         donetButton.addEventListener('click', function () {
             let getDonetBalance = convartIntWithInput(getDonet);
             let oldbalance = convartIntWithTag(balanceBox);
-            if (getDonetBalance > 0 && convartIntWithTag(mainBalance) >= getDonetBalance ) {
+            if ((getDonetBalance > 0 && convartIntWithTag(mainBalance) >= getDonetBalance ) && !isNaN(getDonet.value) == true) {
                 let myDate = new Date();
                 let div = document.createElement('div')
                 let detalse = getId("history-transection");
